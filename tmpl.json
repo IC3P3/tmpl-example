@@ -8,6 +8,13 @@
             "Description": "A simple template of SvelteKit without changes.",
             "Prehook": [],
             "Posthook": []
+        },
+        {
+            "Displayname": "Hello World Go Example",
+            "Name": "hello-go",
+            "Description": "An example of a hello world, written in Go.",
+            "Prehook": [],
+            "Posthook": []
         }
     ],
     "Addons": [],
