@@ -1,0 +1,15 @@
+{
+    "Name": "tmpl examples",
+    "Description": "This is a small collection of templates to demonstrate tmpl",
+    "Templates": [
+        {
+            "Displayname": "SvelteKit Base Template",
+            "Name": "sveltekit",
+            "Description": "A simple template of SvelteKit without changes.",
+            "Prehook": [],
+            "Posthook": []
+        }
+    ],
+    "Addons": [],
+    "Hooks": []
+}
