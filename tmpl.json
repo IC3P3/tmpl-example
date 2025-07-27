@@ -6,25 +6,19 @@
             "Displayname": "SvelteKit Base Template",
             "Name": "sveltekit",
             "Description": "A simple template of SvelteKit without changes.",
-            "Prehook": [],
-            "Posthook": [
-                "npm-install"
-            ]
         },
         {
             "Displayname": "Hello World Go Example",
             "Name": "hello-go",
             "Description": "An example of a hello world, written in Go.",
-            "Prehook": [],
-            "Posthook": []
         }
     ],
-    "Addons": [],
-    "Hooks": [
-        {
-            "Displayname": "Install with npm",
-            "name": "npm-install",
-            "Description": "Installs the needed packages using npm"
+    "Addons": [
+    	{
+    	    "Displayname": "Login component",
+            "Name": "login-svelte",
+            "Description": "Adds a simple login form as a component"
         }
-    ]
+    ],
+    "Hooks": []
 }
