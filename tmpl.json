@@ -1,5 +1,5 @@
 {
-    "Name": "tmpl examples",
+    "Displayname": "tmpl examples",
     "Description": "This is a small collection of templates to demonstrate tmpl",
     "Templates": [
         {
@@ -7,7 +7,9 @@
             "Name": "sveltekit",
             "Description": "A simple template of SvelteKit without changes.",
             "Prehook": [],
-            "Posthook": []
+            "Posthook": [
+                "npm-install"
+            ]
         },
         {
             "Displayname": "Hello World Go Example",
@@ -18,5 +20,11 @@
         }
     ],
     "Addons": [],
-    "Hooks": []
+    "Hooks": [
+        {
+            "Displayname": "Install with npm",
+            "name": "npm-install",
+            "Description": "Installs the needed packages using npm"
+        }
+    ]
 }
