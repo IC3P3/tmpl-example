@@ -14,7 +14,9 @@
             "Displayname": "Hello World Go Example",
             "Name": "hello-go",
             "Description": "An example of a hello world, written in Go.",
-            "Addons": []
+            "Addons": [
+                "utils-go"
+            ]
         }
     ],
     "Addons": [
@@ -22,6 +24,11 @@
     	    "Displayname": "Login component",
             "Name": "login-svelte",
             "Description": "Adds a simple login form as a component"
+        },
+    	{
+    	    "Displayname": "Utility functions for Go",
+            "Name": "utils-go",
+            "Description": "Adds a utility function package"
         }
     ],
     "Hooks": []
