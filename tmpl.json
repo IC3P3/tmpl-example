@@ -6,11 +6,15 @@
             "Displayname": "SvelteKit Base Template",
             "Name": "sveltekit",
             "Description": "A simple template of SvelteKit without changes.",
+            "Addons": [
+            	"login-svelte"
+            ]
         },
         {
             "Displayname": "Hello World Go Example",
             "Name": "hello-go",
             "Description": "An example of a hello world, written in Go.",
+            "Addons": []
         }
     ],
     "Addons": [
